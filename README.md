@@ -66,7 +66,7 @@ This message is totally not json, but produce it anyway
 ```
 
 ## View messages is ES (using Kibana)
-- Notice the enrichment that occured due to pipeline [configuration](./pipeline/logstash.conf)
+- Notice the event enrichment (team and user names added) that occured due to the pipeline [configuration](./pipeline/logstash.conf)
   
 ![Kibana](./doc/kibana_view.png)
 
