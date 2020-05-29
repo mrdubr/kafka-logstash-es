@@ -65,7 +65,11 @@ $KAFKA_HOME/bin/kafka-console-producer.sh --topic=topic \
 This message is totally not json, but produce it anyway
 ```
 
+## View messages is ES (using Kibana)
+![Kibana](./doc/kibana_view.png)
+
 ## Something does not work:
+- Make sure the topic is created
 - Start with a clean slate: 
- - `docker rm $(docker ps -aq)`
- - `docker volume rm zookeeper_kafkadata zookeeper_kafkalogs zookeeper_zookeeperdata`
+  - `docker rm $(docker ps -aq)`
+  - `docker volume rm zookeeper_kafkadata zookeeper_kafkalogs zookeeper_zookeeperdata`
